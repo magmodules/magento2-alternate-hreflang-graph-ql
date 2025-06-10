@@ -1,0 +1,25 @@
+{
+    "name": "magmodules/m2-alternate-hreflang-graph-ql",
+    "description": "N/A",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magmodules/m2-alternate-hreflang": "~2.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magmodules\\AlternateHreflangGraphQl\\": ""
+        }
+    }
+}
+

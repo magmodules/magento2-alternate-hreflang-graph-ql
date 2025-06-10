@@ -1,0 +1,22 @@
+type CmsPage {
+    hreflang: [HreflangLink!]!
+        @resolver(class: "Magmodules\\AlternateHreflangGraphQl\\Model\\Resolver\\CmsAlternateUrls")
+        @doc(description: "Alternative language codes from the Magmodules_AlternateHreflang module")
+}
+
+interface CategoryInterface {
+    hreflang: [HreflangLink!]!
+        @resolver(class: "Magmodules\\AlternateHreflangGraphQl\\Model\\Resolver\\CategoryAlternateUrls")
+        @doc(description: "Alternative language codes from the Magmodules_AlternateHreflang module")
+}
+
+interface ProductInterface {
+    hreflang: [HreflangLink!]!
+        @resolver(class: "Magmodules\\AlternateHreflangGraphQl\\Model\\Resolver\\ProductAlternateUrls")
+        @doc(description: "Alternative language codes from the Magmodules_AlternateHreflang module")
+}
+
+type HreflangLink {
+    code: String!
+    url: String!
+}
