@@ -1,6 +1,6 @@
 # Magmodules_AlternateHreflangGraphQl
 
-This module provides GraphQL support for the `Magmodules_AlternateHreflang` module, allowing you to retrieve `hreflang` alternate URLs for products, categories, and CMS pages via GraphQL.
+This module provides GraphQL support for the Magento 2 `Magmodules_AlternateHreflang` module ([link](https://www.magmodules.eu/magento2-alternate-hreflang-tags.html)), allowing you to retrieve `hreflang` alternate URLs for products, categories, and CMS pages via GraphQL.
 
 ## Features
 
